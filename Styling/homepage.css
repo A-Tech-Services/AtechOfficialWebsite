@@ -1,0 +1,122 @@
+/* importing font from google font */
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;600&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "heebo", "san serif";
+}
+
+
+.headercontainer{
+    position: relative;
+    height: 800px;
+    max-width: 100%;
+    background-color: #0f044c38;
+    
+}
+
+.headimg{
+    width: 100%;
+    height: 100%;
+    opacity: 0.05;
+}
+
+.logo{
+    position: absolute;
+    left: 150px;
+    top: 30px;
+}
+
+.navbar{
+    position: absolute;
+    right: 150px;
+    top: 50px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+    padding: 30px;
+}
+
+li a{
+    text-decoration: none;
+    color: #0F044C;
+    font-weight: 600;
+}
+
+.headerbody{
+    position: absolute;
+    top: 300px;
+    left: 150px;
+    font-size: 25px;
+    line-height: 1.2;
+    color: #0F044C;
+}
+
+.rhimg{
+    position: absolute;
+    top: 70px;
+    right: 150px;
+    opacity: 0.5;
+}
+
+.motto{
+    color: #0F044C;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.hlink{
+    position: absolute;
+    left: 150px;
+    top: 500px;
+    background-color: #0F044C;
+    padding: 20px;
+    color: white;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 20px;
+    width: 250px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.17);
+}
+
+
+.aboutus{
+    margin-top: 150px;    
+}
+
+.aboutus h1{
+    font-weight: 600;
+    color: #787A91;
+    text-align: center;
+    font-size: 40px;
+}
+
+/* .aboutus h1::after{
+    content: "";
+    width: 20%;
+    height: 100px;
+    background-color: #787A91;
+} */
+
+
+.aboutus p{
+    text-align: center;
+    margin-top: 50px;
+    letter-spacing: 2px;
+    line-height: 1.7;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+
+
