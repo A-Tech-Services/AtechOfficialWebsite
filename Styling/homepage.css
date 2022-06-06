@@ -40,16 +40,16 @@ html {
     top: 50px;
 }
 
-ul{
+.navbar ul{
     list-style-type: none;
 }
 
-li{
+.navbar li{
     display: inline;
     padding: 30px;
 }
 
-li a{
+.navbar li a{
     text-decoration: none;
     color: #0F044C;
     font-weight: 600;
