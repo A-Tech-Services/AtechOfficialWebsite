@@ -118,10 +118,11 @@ li a{
 
 
 .services{
+    position: relative;
     margin-top: 150px;
     padding: 56px;
     background: rgba(15, 4, 76, 0.05);
-    height: 700px;
+    height: 900px;
 }
 
 .services h1{
@@ -136,6 +137,36 @@ li a{
     margin-top: 20px;
     color: #787A91;
     text-align: center;
+}
+
+
+.servsec{
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+.servsec .box{
+    float: left;
+    width: 320px;
+    height: 400px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.1);
+    color:  #787A91;
+    margin-left: 130px;
+}
+
+.services a{
+    position: absolute;
+    bottom: 70px;
+    right: 840px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    color: white;
+    background: #787A91;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.21);
+    border-radius: 8px;
+    text-decoration: none;
 }
 
 
@@ -207,6 +238,7 @@ li a{
     background-color: white;
     padding: 25px;
     width: 30%;
+    color: #787A91;
 }
 
 input, textarea{
