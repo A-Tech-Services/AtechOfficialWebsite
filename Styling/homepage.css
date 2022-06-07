@@ -81,9 +81,9 @@ html {
     position: absolute;
     left: 150px;
     top: 500px;
-    background-color: #0F044C;
+    border: 2px solid #0F044C;
     padding: 20px;
-    color: white;
+    color: #0F044C;
     margin-top: 10px;
     text-decoration: none;
     border-radius: 30px;
@@ -92,6 +92,12 @@ html {
     font-size: 20px;
     width: 250px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.17);
+    transition: 2s;
+}
+
+.hlink:hover{
+    background-color: #0F044C;
+    color: white;
 }
 
 
