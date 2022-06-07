@@ -101,6 +101,33 @@ html {
 }
 
 
+#whoweare::after{
+    content: " ";
+    display: block;
+    margin-left: 860px;
+    width: 100px;
+    height: 5px;
+    background-color: #787A91;
+}
+
+#contactus::after{
+    content: " ";
+    display: block;
+    margin-left: 860px;
+    width: 100px;
+    height: 5px;
+    background-color: #787A91;
+}
+
+#spec::after{
+    content: " ";
+    display: block;
+    margin-left: 800px;
+    width: 100px;
+    height: 5px;
+    background-color: #787A91;
+}
+
 .aboutus{
     margin-top: 150px;    
 }
